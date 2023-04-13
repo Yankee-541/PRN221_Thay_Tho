@@ -1,0 +1,22 @@
+﻿<Window x:Class="Topic1_WPF_Control.CtrControlChexbox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Topic1_WPF_Control"
+        mc:Ignorable="d"
+        Title="CtrControlChexbox" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10,20,686,323">
+            <CheckBox Name="btnCheckbox1" Content="PRN211" Checked="btnCheckbox1_Checked" Unchecked="checkBox_Uncheck"/>
+            <CheckBox Name="btnCheckbox2" Content="PRN221" Checked="btnCheckbox2_Checked" Unchecked="btnCheckbox2_Unchecked"/>
+            <CheckBox Name="btnCheckbox3" Content="PRN231" Unchecked="btnCheckbox3_Unchecked" Checked="btnCheckbox3_Checked"/>
+        </StackPanel >
+
+        <Label Margin="191,20,136,300" Name="label" Content="Course: " RenderTransformOrigin="0.506,0.499" />
+    </Grid>
+
+
+
+
+</Window>

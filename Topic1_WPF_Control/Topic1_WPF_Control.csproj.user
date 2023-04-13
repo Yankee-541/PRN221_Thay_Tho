@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BindingOneWay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CTRButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CtrControlChexbox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CtrControlLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DemoComboBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DemoGridViewDataGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Lab1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RadioGender.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BindingOneWay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CTRButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CtrControlChexbox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CtrControlLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DemoComboBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DemoGridViewDataGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Lab1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RadioGender.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Topic1_WPF_Control.DemoComboBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Topic1_WPF_Control"
+        mc:Ignorable="d"
+        Title="DemoComboBox" Height="479" Width="324">
+    <Grid>
+        <ComboBox  Name="cbItems" HorizontalAlignment="Left" Margin="65,78,0,0" VerticalAlignment="Top" Width="184" SelectionChanged="selectedItem"/>
+        <Label Content="Items: " Name="lbItems"  HorizontalAlignment="Left" Margin="65,352,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

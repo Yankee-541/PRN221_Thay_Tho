@@ -1,0 +1,23 @@
+﻿<Window x:Class="Topic1_WPF_Control.ListBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Topic1_WPF_Control"
+        mc:Ignorable="d"
+        Title="ListBox" Height="450" Width="800">
+    <Grid>
+        <ListBox Margin="25,25,506,199" Name="lbTech" >
+            <!--SelectionChanged="lbTech_SelectionChanged"-->
+            <ListBoxItem >Winform</ListBoxItem>
+            
+            <ListBoxItem Content="WPF"/> 
+            <ListBoxItem Content="ASP.Net Razer"/>
+            <ListBoxItem Content="ASP.NET Core"/> 
+        </ListBox>
+        <Label Margin="299,42,0,130" Name="label" 
+               Content="{Binding SelectedItem.Content, ElementName=lbTech}"
+               />
+        <!--Content="Result: "-->
+    </Grid>
+</Window>
